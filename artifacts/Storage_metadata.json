@@ -6,6 +6,25 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "NumberStored",
+				"type": "event"
+			},
+			{
 				"inputs": [],
 				"name": "retrieve",
 				"outputs": [
@@ -45,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Storage.sol": "Storage"
+			"Event.sol": "Storage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,12 +78,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Storage.sol": {
-			"keccak256": "0x1d3ed0dbc47a5ac341fdd14cbdf9c93074f84b08e6ac53f972052cf3bdf6313a",
+		"Event.sol": {
+			"keccak256": "0xb4160226002fdc84485b8376d3e86f774a5b8a0b9981e10392276fe0c6b0c6d7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0e7676603302676ff0524a2e691fc65e9dd4bd7c24153b827bd18bd085fcab35",
-				"dweb:/ipfs/Qmf9XHBLxmhPZydtt8pyJqmGDcnieTJqpzkz93LKvQWspQ"
+				"bzz-raw://5c514348786ff8a4d09057cac32a7b38e7110772cff3f8625f73bc9623a30efe",
+				"dweb:/ipfs/QmYxuqsbiEzZgmx3Gy8MhEpJMCygPdu5YydwpqJBnGN5fm"
 			]
 		}
 	},
